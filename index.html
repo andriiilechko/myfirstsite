@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Тепло з альтернативних джерел енергії</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-   <h1>Тепло з альтернативних джерел енергії</h1> 
-   <img src="img/warm.jpg" alt="Тепло">
-   <p>Зі збільшенням тарифів на газ та електроенергію альтернативні джерела енергії стають все більш привабливими. 
+   <header>
+      <h1>Плати меньше за тепло!</h1>
+      <h2>Тепло з альтернативних джерел енергії</h2>
+   </header>
+    <main>
+       <img src="img/warm.jpg" alt="Тепло" class="pos_fixed_titul">
+   <p class="pos_fixed">Зі збільшенням тарифів на газ та електроенергію альтернативні джерела енергії стають все більш привабливими. 
    Природа пропонує нам численні можливості для екологічно чистого та економічно ефективного виробництва теплової енергії.</p>
-   <h2>АЛЬТЕРНАТИВНІ ДЖЕРЕЛА ЕНЕРГІЇ</h2> 
+    </main>
+   <article>
+       </br>
+      <h2>АЛЬТЕРНАТИВНІ ДЖЕРЕЛА ЕНЕРГІЇ</h2> 
    <img src="img/sun-energy.jpg" alt="Сонячна енергія">
    <p>Енергія сонця. Загальна кількість сонячної енергії, яка досягає поверхні землі в 6,7 рази більша світового потенціалу 
    ресурсів органічного палива. Використання 0,5 % цього запасу могло б повністю покрити світову потребу в енергії на тисячоліття.
@@ -40,11 +48,35 @@
    енергію навколишього середовища на потреби опалення та кондиціонування. Порядку 75% від необхідної енергії для нагріву або охолодження 
    тепловий насос фактично витягує з навколишнього середовища. Наприклад, для отримання 10 кВт теплової енергії необхідно затратити 2,5кВт 
    електричної.</p>
-   <h3>Контакти</h3>
+   </article>
+   <footer>
+      <h3>Контакти</h3>
    <p>м. Львів: вул. Теплова, 1</p>
    <p>+38 (067) 3827116</p>
    <a href="https://www.facebook.com/ilechkoandriy">Контакти в фейсбуку</a>
    <br>
-   <a href="form.html">Написати листа</a>
+   </footer>
+   </form>
+        <h4>Написати запитання</h4>
+    <form method="POST" action="https://formspree.io/ilechkoandriy9@gmail.com">
+        <label for="client-name">Ваше і'мя:</label>
+        <br>
+      <input type="text" id="client-name" placeholder="Name"
+      name="client-name1" required>
+      <br>
+      <label>Email:
+      <br>
+      <input type="email" placeholder="Email"
+      name="client-email" required>
+      <br>
+        <label>Запитання:
+      <br>
+      <input type="Запитання" placeholder="Запитання"
+      name="client-email" required>
+      <br>
+        <input type="submit">
+        <input type="reset">  
+      </label>
+    </form>
 </body>
 </html>
