@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Тепло з альтернативних джерел енергії</title>
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="shortcut icon" type="image/icon" href="/favicon.ico"/>
     </head>
@@ -13,16 +15,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#energysun">Енергія сонця</a>
+                        <a class="nav-link smooth" href="#energysun">Енергія сонця</a>
                     </li>
                     <li>
-                        <a href="#energywind">Енергія вітру</a>
+                        <a class="nav-link smooth" href="#energywind">Енергія вітру</a>
                     </li>
                     <li>
-                        <a href="#energyheatpump">Геотермальна енергія</a>
+                        <a class="nav-link smooth" href="#energyheatpump">Геотермальна енергія</a>
                     </li>
                     <li>
-                        <a href="#contacts">Контакти</a>
+                        <a class="nav-link smooth" href="#contacts">Контакти</a>
                     </li>
                 </ul>
             </nav>
@@ -31,12 +33,12 @@
                 <h2>Плати меньше за тепло!</h2>
             </section>
         </header>
-        <h5>Зі збільшенням тарифів на газ та електроенергію альтернативні джерела енергії стають все більш привабливими. 
-   Природа пропонує нам численні можливості для екологічно чистого та економічно ефективного виробництва теплової енергії.</h5>
+        <p class="text-centered" style="text-align:center">Із збільшенням тарифів на газ та електроенергію альтернативні джерела енергії стають все більш привабливими. 
+   Природа пропонує нам численні можливості для екологічно чистого та економічно ефективного виробництва теплової енергії.</p>
         <article>
             <h6>АЛЬТЕРНАТИВНІ ДЖЕРЕЛА ЕНЕРГІЇ</h6>
             <img src="img/sun-energy.jpg" alt="Сонячна енергія" class="pos_left_sun_energy" style="float:left; margin-right: 10px;">
-            <h3>Енергія сонця</h3>
+            <h3 id="energysun">Енергія сонця</h3>
             <p>Загальна кількість сонячної енергії, яка досягає поверхні землі в 6,7 рази більша світового потенціалу 
    ресурсів органічного палива. Використання 0,5 % цього запасу могло б повністю покрити світову потребу в енергії на тисячоліття.
    Повна кількість сонячної енергії, яка потрапляє на поверхню землі за тиждень перевищує енергію усіх світових запасів нафти, газу, урану. 
@@ -46,7 +48,7 @@
    Використання сонячної енергії для побутових потреб є найбільш придатною по економічній ефективності їх використання.</p>
             <br>
             <img src="img/wind-energy.jpg" alt="Енергія вітру" class="pos_center_titul" style="float:right; margin-right: 10px;">
-            <h3>Енергія вітру</h3>
+            <h3 id="energywind">Енергія вітру</h3>
             <p>Енергія вітру надзвичайно велика.Її запаси за оцінками Всесвітньої метеорологічної організації, 
    складають 170 трлн. кВт/ч в рік. Цю енергію можна отримувати не забруднюючи навколишнє середовище. Але у вітру є 2 вагомих недоліки: 
    енергія дуже розсіяна в середовищі, а також вона непередбачувана - часто змінює напрямок, стихає в найбільш вітряних регіонах земної кулі, 
@@ -58,7 +60,7 @@
    об'єктів.</p>
             <br>
             <img src="img/heat-pump-principle.jpg" alt="Теплові насоси" class="pos_center_titul" style="float:left; margin-right: 10px;">
-            <h3>Геотермальна енергія</h3>
+            <h3 id="energyheatpump">Геотермальна енергія</h3>
             <p>Геотермальна енергія - в дослівному перекладі означає: теплова енергія землі. 
    Об'єм Землі складає приблизно 1085 млрд. куб. км. і весь він, за виключенням тонкого шару земної кори має дуже високу температуру. 
    Якщо врахувати ще теплоємкість порід землі, то стане зрозуміло, що геотермальне тепло - це найбільше джерело енергії, яким володіє людина. 
@@ -70,7 +72,7 @@
    електричної.</p>
         </article>
         <footer>
-            <h4>Контакти</h4>
+            <h4 id="contacts">Контакти</h4>
             <p>м. Львів: вул. Теплова, 1 тел. +38 (067) 3827116</p>
             <a href="https://www.facebook.com/ilechkoandriy" target="_blank">
                 <img src="img/facebook.jpg" alt="facebook">
@@ -83,7 +85,7 @@
                 <p>
                     <label>
                         Ім'я<br>
-                        <input type="text" name="Ім'я" placeholder="Ім'я" required="">
+                        <input type="text" name="Ім'я" placeholder="Ваше ім'я" required="">
                     </label>
                 </p>
                 <p>
@@ -97,7 +99,7 @@
                 <p>
                     <label>
                         Запитання<br>
-                        <textarea name="message" rows="6" cols="60" placeholder="Запитання"></textarea>
+                        <textarea name="message" rows="6" cols="60" placeholder="Ваше запитання"></textarea>
                     </label>
                 </p>
             </div>
@@ -105,6 +107,10 @@
             <input type="reset">
             <br>
         </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
     </body>
 </html>
 

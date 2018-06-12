@@ -13,7 +13,9 @@ nav {
 header nav {
     display: flex;
 }
+
 header nav ul {
+    padding-left: 0px;
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -39,10 +41,15 @@ h1 {font-size:50px; text-align:center;}
 h2 {font-family:"Times New Roman"; font-style:italic; color:#FF0000; font-size:80px; text-align:center;}
 h3 {font-family:"Lobster";color:#9633FF; font-size:30px; text-align:center;}
 h4 {font-family:"Lobster";color:#9633FF; font-size:30px; text-align:left;}
-h5 {font-family:Arial,Helvetica,sans-serif; text-align:center;}
 h6 {font-family:"Lobster"; font-size:50px; text-align:center;}
 p {font-family:Arial,Helvetica,sans-serif;}
 
-
+@media (max-width: 500px){
+    article img{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+}
 
 
