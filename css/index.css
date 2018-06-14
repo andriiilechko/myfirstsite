@@ -44,7 +44,7 @@ h4 {font-family:"Lobster";color:#9633FF; font-size:30px; text-align:left;}
 h6 {font-family:"Lobster"; font-size:50px; text-align:center;}
 p {font-family:Arial,Helvetica,sans-serif;}
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     article img{
         display: block;
         width: 100%;
